@@ -8,4 +8,4 @@ FROM "docker:${DOCKER_VERSION}"
 #    && apt-get update \
 #    && apt-get install -y docker-ce-cli \
 #    && apt-get clean
-RUN apk add --no-cache nodejs
+RUN apk add --no-cache nodejs npm
